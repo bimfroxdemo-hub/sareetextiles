@@ -130,7 +130,7 @@ export default function Navbar() {
             <div className="hidden md:flex items-center">
 
               <a
-                href="https://wa.me/919054981808"
+                href="https://wa.me/9199999999999"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-2 text-[#8B0A13] hover:opacity-80 transition"
@@ -172,7 +172,7 @@ export default function Navbar() {
             ))}
 
             <a
-              href="https://wa.me/919054981808"
+              href="https://wa.me/91999999999999"
               target="_blank"
               rel="noreferrer"
               className="flex items-center justify-center gap-2 py-4 text-[#8B0A13] font-medium"

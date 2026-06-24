@@ -127,7 +127,7 @@ function About() {
         </p>
 
         <a
-          href="https://wa.me/919054981808"
+          href="https://wa.me/9199999999999"
           target="_blank"
           className="inline-block mt-8 bg-[#8B0A13] text-white px-10 py-3 hover:bg-[#6d0810]"
         >

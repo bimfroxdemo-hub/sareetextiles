@@ -77,7 +77,7 @@ Please share wholesale price.
 
 
     window.open(
-      `https://wa.me/919054981808?text=${encodeURIComponent(msg)}`,
+      `https://wa.me/9199999999999?text=${encodeURIComponent(msg)}`,
       "_blank"
     )
 

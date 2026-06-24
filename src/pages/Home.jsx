@@ -410,7 +410,7 @@ function Home() {
         </p>
 
         <a
-          href="https://wa.me/919054981808"
+          href="https://wa.me/919999999999"
           target="_blank"
           rel="noreferrer"
           className="inline-block mt-4 bg-[#8B0A13] text-white px-6 py-2 text-sm hover:bg-[#6d0810] transition"

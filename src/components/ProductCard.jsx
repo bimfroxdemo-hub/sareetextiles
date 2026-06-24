@@ -52,7 +52,7 @@ ${order}
 `;
 
     window.open(
-      `https://wa.me/919054981808?text=${encodeURIComponent(msg)}`,
+      `https://wa.me/919999999999?text=${encodeURIComponent(msg)}`,
       "_blank"
     )
 
@@ -226,16 +226,7 @@ text-sm
 
         </div>
 
-
-
       </div>
-
-
-
-
-
-
-
       {
         bulkOpen &&
 
@@ -250,16 +241,12 @@ items-center
 justify-center
 p-4
 ">
-
-
           <div className="
 bg-white
 w-full
 max-w-sm
 p-5
 ">
-
-
             <h2 className="font-semibold text-lg">
               Order Summary
             </h2>
@@ -268,9 +255,6 @@ p-5
             <p className="text-sm mt-3">
               {product.title}
             </p>
-
-
-
             {
               Object.entries(colorQty)
                 .filter(([c, q]) => q > 0)
@@ -288,10 +272,6 @@ p-5
                 ))
 
             }
-
-
-
-
             <button
 
               onClick={handleBulkOrder}
@@ -303,13 +283,9 @@ bg-green-600
 text-white
 py-2
 ">
-
               WhatsApp Order
 
             </button>
-
-
-
             <button
 
               onClick={() => setBulkOpen(false)}
@@ -320,22 +296,13 @@ w-full
 border
 py-2
 ">
-
               Close
 
             </button>
-
-
-
           </div>
 
         </div>
-
-
       }
-
-
-
     </div>
 
   )
