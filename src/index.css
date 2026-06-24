@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.heroSwiper .swiper-pagination {
+  bottom: 25px !important;
+}
+
+.heroSwiper .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: #ffffff;
+  opacity: 0.7;
+}
+
+.heroSwiper .swiper-pagination-bullet-active {
+  background: #ffffff;
+  opacity: 1;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 20s linear infinite;
+}
