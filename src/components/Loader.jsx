@@ -11,6 +11,7 @@ flex-col
 items-center
 justify-center
 z-50
+px-5
 ">
 
 
@@ -18,12 +19,15 @@ z-50
 {/* Logo */}
 
 <h1 className="
-text-5xl
+text-3xl
+sm:text-4xl
+md:text-5xl
 font-serif
 font-bold
 text-red-700
 tracking-widest
 animate-pulse
+text-center
 ">
 
 Surat Textiles
@@ -33,12 +37,17 @@ Surat Textiles
 
 
 
+
 <p className="
-mt-4
+mt-3
+sm:mt-4
 text-red-500
-tracking-[6px]
-text-sm
+tracking-[3px]
+sm:tracking-[6px]
+text-xs
+sm:text-sm
 font-medium
+text-center
 ">
 
 SAREE WHOLESALER
@@ -49,11 +58,14 @@ SAREE WHOLESALER
 
 
 
-{/* Saree style line */}
+
+
+{/* Saree line */}
 
 <div className="
 mt-8
-w-64
+w-48
+sm:w-64
 h-1
 bg-red-700
 rounded-full
@@ -65,7 +77,8 @@ overflow-hidden
 <div className="
 absolute
 h-full
-w-20
+w-16
+sm:w-20
 bg-red-300
 animate-[loading_1.5s_infinite]
 ">
@@ -79,18 +92,24 @@ animate-[loading_1.5s_infinite]
 
 
 
+
+
+
 {/* Dots */}
 
 <div className="
 flex
-gap-3
-mt-8
+gap-2
+sm:gap-3
+mt-7
 ">
 
 
 <span className="
-w-3
-h-3
+w-2.5
+h-2.5
+sm:w-3
+sm:h-3
 bg-red-700
 rounded-full
 animate-bounce
@@ -98,9 +117,12 @@ animate-bounce
 </span>
 
 
+
 <span className="
-w-3
-h-3
+w-2.5
+h-2.5
+sm:w-3
+sm:h-3
 bg-red-500
 rounded-full
 animate-bounce
@@ -109,15 +131,19 @@ animate-bounce
 </span>
 
 
+
 <span className="
-w-3
-h-3
+w-2.5
+h-2.5
+sm:w-3
+sm:h-3
 bg-red-300
 rounded-full
 animate-bounce
 [animation-delay:0.4s]
 ">
 </span>
+
 
 
 </div>
