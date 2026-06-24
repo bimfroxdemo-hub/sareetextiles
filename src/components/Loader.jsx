@@ -5,27 +5,34 @@ return (
 <div className="
 fixed
 inset-0
+w-full
+h-screen
 bg-[#fff7f5]
+flex
+items-center
+justify-center
+z-[9999]
+">
+
+
+<div className="
 flex
 flex-col
 items-center
 justify-center
-z-50
-px-5
+w-full
+px-6
 ">
 
 
 
-{/* Logo */}
-
 <h1 className="
-text-3xl
-sm:text-4xl
-md:text-5xl
+text-4xl
+md:text-6xl
 font-serif
 font-bold
 text-red-700
-tracking-widest
+tracking-wide
 animate-pulse
 text-center
 ">
@@ -36,17 +43,12 @@ Surat Textiles
 
 
 
-
-
 <p className="
 mt-3
-sm:mt-4
 text-red-500
-tracking-[3px]
-sm:tracking-[6px]
+tracking-[4px]
 text-xs
-sm:text-sm
-font-medium
+md:text-sm
 text-center
 ">
 
@@ -58,29 +60,27 @@ SAREE WHOLESALER
 
 
 
-
-
-{/* Saree line */}
-
 <div className="
-mt-8
-w-48
-sm:w-64
-h-1
-bg-red-700
-rounded-full
 relative
+mt-10
+w-56
+md:w-72
+h-2
+bg-red-200
+rounded-full
 overflow-hidden
 ">
 
 
 <div className="
 absolute
+top-0
+left-0
 h-full
-w-16
-sm:w-20
-bg-red-300
-animate-[loading_1.5s_infinite]
+w-24
+bg-red-700
+rounded-full
+animate-[slide_1.5s_ease-in-out_infinite]
 ">
 
 </div>
@@ -91,63 +91,51 @@ animate-[loading_1.5s_infinite]
 
 
 
-
-
-
-
-{/* Dots */}
 
 <div className="
 flex
-gap-2
-sm:gap-3
-mt-7
+gap-3
+mt-8
 ">
 
 
-<span className="
-w-2.5
-h-2.5
-sm:w-3
-sm:h-3
+<div className="
+w-3
+h-3
 bg-red-700
 rounded-full
 animate-bounce
 ">
-</span>
+</div>
 
 
-
-<span className="
-w-2.5
-h-2.5
-sm:w-3
-sm:h-3
+<div className="
+w-3
+h-3
 bg-red-500
 rounded-full
 animate-bounce
-[animation-delay:0.2s]
+[animation-delay:200ms]
 ">
-</span>
+</div>
 
 
-
-<span className="
-w-2.5
-h-2.5
-sm:w-3
-sm:h-3
+<div className="
+w-3
+h-3
 bg-red-300
 rounded-full
 animate-bounce
-[animation-delay:0.4s]
+[animation-delay:400ms]
 ">
-</span>
+</div>
 
 
 
 </div>
 
+
+</div>
 
 
 </div>

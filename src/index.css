@@ -30,14 +30,18 @@
   width: max-content;
   animation: marquee 20s linear infinite;
 }
-@keyframes loading {
+@keyframes slide {
 
 0%{
-left:-80px;
+transform:translateX(-100%);
+}
+
+50%{
+transform:translateX(250%);
 }
 
 100%{
-left:260px;
+transform:translateX(-100%);
 }
 
 }
