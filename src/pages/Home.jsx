@@ -423,6 +423,7 @@ function Home() {
     </div>
   ))}
 </div>
+
            <Delivery/>
             <WhatsAppButton />
         </>

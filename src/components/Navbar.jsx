@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
+import logo from "../assets/logo.png";   // apne logo ka path
 import {
   Menu,
   X,
@@ -86,16 +87,38 @@ export default function Navbar() {
 
           <div className="h-20 flex items-center justify-between">
 
-            {/* Logo */}
-            <Link to="/" className="flex flex-col">
-              <h1 className="text-3xl font-bold text-[#8B0A13]">
-                Surat Textiles
-              </h1>
+           <Link 
+  to="/" 
+  className="flex flex-col items-center"
+>
 
-              <span className="text-[10px] tracking-[3px] uppercase text-gray-500">
-                Wholesale Collection
-              </span>
-            </Link>
+
+<img
+  src={logo}
+  alt="Shree Ganesh Sarees"
+  className="
+  h-14
+  md:h-16
+  object-contain
+  "
+/>
+
+
+<span className="
+text-[9px]
+md:text-[10px]
+tracking-[3px]
+uppercase
+text-gray-500
+mt-1
+">
+
+Wholesale Collection
+
+</span>
+
+
+</Link>
 
             {/* Desktop Menu */}
             <nav className="hidden md:flex items-center gap-10">

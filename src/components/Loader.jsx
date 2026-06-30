@@ -1,3 +1,6 @@
+import logo from "../assets/logo.png";   // apne logo ka path
+
+
 function Loader() {
 
 return (
@@ -26,35 +29,63 @@ px-6
 
 
 
+
+
+{/* LOGO */}
+
+<img
+
+src={logo}
+
+alt="Shree Ganesh Sarees"
+
+className="
+w-32
+md:w-44
+object-contain
+mb-5
+animate-pulse
+"
+
+/>
+
+
+
+
+
 <h1 className="
-text-4xl
-md:text-6xl
+text-3xl
+md:text-5xl
 font-serif
 font-bold
-text-red-700
+text-[#8B0A13]
 tracking-wide
-animate-pulse
 text-center
 ">
 
-Surat Textiles
+Shree Ganesh Sarees
 
 </h1>
 
 
 
+
+
 <p className="
 mt-3
-text-red-500
-tracking-[4px]
+text-[#8B0A13]
+tracking-[5px]
 text-xs
 md:text-sm
 text-center
+uppercase
 ">
 
-SAREE WHOLESALER
+Premium Saree Collection
 
 </p>
+
+
 
 
 
@@ -66,10 +97,11 @@ mt-10
 w-56
 md:w-72
 h-2
-bg-red-200
+bg-[#f3cdd0]
 rounded-full
 overflow-hidden
 ">
+
 
 
 <div className="
@@ -78,7 +110,7 @@ top-0
 left-0
 h-full
 w-24
-bg-red-700
+bg-[#8B0A13]
 rounded-full
 animate-[slide_1.5s_ease-in-out_infinite]
 ">
@@ -86,7 +118,11 @@ animate-[slide_1.5s_ease-in-out_infinite]
 </div>
 
 
+
 </div>
+
+
+
 
 
 
@@ -99,20 +135,24 @@ mt-8
 ">
 
 
+
 <div className="
 w-3
 h-3
-bg-red-700
+bg-[#8B0A13]
 rounded-full
 animate-bounce
 ">
 </div>
 
 
+
+
+
 <div className="
 w-3
 h-3
-bg-red-500
+bg-[#b83245]
 rounded-full
 animate-bounce
 [animation-delay:200ms]
@@ -120,10 +160,13 @@ animate-bounce
 </div>
 
 
+
+
+
 <div className="
 w-3
 h-3
-bg-red-300
+bg-[#e6a6ad]
 rounded-full
 animate-bounce
 [animation-delay:400ms]
@@ -132,13 +175,18 @@ animate-bounce
 
 
 
+
+</div>
+
+
+
+
+
 </div>
 
 
 </div>
 
-
-</div>
 
 )
 
